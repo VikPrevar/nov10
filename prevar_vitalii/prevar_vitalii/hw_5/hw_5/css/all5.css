@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+p {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.25;
+    text-indent: 40px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+.bg-box {  
+    width: 1100px;
+    height: 630px;
+    margin: 0 auto;
+    background: url("../images/1.jpg") center center / 500px 330px no-repeat, url("../images/2.png") left bottom / auto 220px repeat-x, url("../images/3.png") top left / auto 80px repeat-x, url("../images/пончик.png") top right / 35px auto repeat-y, url("../images/Ёжик.png") bottom left / auto 35px repeat-y, green ;
+}

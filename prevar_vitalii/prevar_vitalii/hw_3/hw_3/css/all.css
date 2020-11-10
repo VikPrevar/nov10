@@ -1,0 +1,33 @@
+blockquote{
+    color: green;
+}
+.http{
+    color: red;
+}
+.https{
+    color: #ff8d00;
+}
+ul + p{
+    font-size: 26px;
+}
+a[title]{
+    border: 1px solid #067b09;
+}
+#pink{
+    color: pink;
+}
+#greycol{
+    color: grey;
+}
+#red{
+    color: red;
+}
+h3[title]{
+    color: blue;
+}
+p + p{
+    color: yellow;
+}
+h3[title] + p{
+    color: green;
+}

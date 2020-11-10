@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+li:nth-child(3n+1) {
+    background: yellow;
+}
+li:nth-child(even) {
+    font-size: 20px;
+}
+li:nth-child(odd) {
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+li::before {
+    content: "-";
+}
+body > ul > li:first-child {
+    color: green;
+    content: "Text";
+}/*этот код сообщает зеленый цвет только “-” перед первым li. Пришлось назначать ему класс в html*/
+.green {
+    color: green;
+}
+ul + h3 {
+    color: pink;
+}
+#greycol {
+    color: grey;
+}
+div > p {
+    color: red;
+}
+div + h3 + p {
+    color: green;
+}
+.yellow {
+    color: yellow;
+}
+

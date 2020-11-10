@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW_2</title>
+    <link rel="stylesheet" href="css/styles.css"><!--Подключение стилей-->
+    <link rel="icon" href="https://img.icons8.com/doodle/344/puzzle--v1.png">
+    <style>
+        .image{
+           background-color: aliceblue ; background-image: url(images/ssl-cert.jpg);
+        }
+        td{
+            text-align: center;
+            background-color: lightcyan;
+        }
+        #row1{
+            background-color: cyan;
+        }
+    </style>
+</head>
+<body>
+    <h1>Homework 2</h1>
+    <p><a href="#description">Что такое HTTP</a></p>
+    <p><a href="#table">Моя первая таблица</a></p>
+        <ul>
+            <li><mark>H</mark>yperText</li>
+            <li><mark>T</mark>ransfer</li>
+            <li><mark>P</mark>rotocol</li>
+            <li><mark>S</mark>ecure</li>
+        </ul>
+        <div>
+        <a href="">
+            <img src="images/ssl-cert.jpg" style="color: lightgrey;" alt="logo" width="300" title="HTPS">
+        </a>
+        </div>
+        <p id="description">Поговорим о <b>HTTPS</b>. Как вы уже могли заметить, аббревиатура данного протокола имеет в окончании литеру «<b>S</b>», что как бы намекает на то, что <i>речь пойдёт <b><u>о безопасном соединении</u></b></i> — последняя буква расшифровывается как <a href="#">Secure</a>- «Безопасное».</p>
+        <table id="table" border="1"><!--Валидатор пишет, что такое размещение атрибута border устаревшее и нужно использовать CSS, на скрине валидации указана эта ошибка-->
+            <tr>
+                <td id="row1" colspan="3"><b>Моя первая таблица</b></td>
+            </tr>
+            <tr>
+                <td>Первая ячейка</td>
+                <td>Вторая ячейка</td>
+                <td rowspan="3" colspan="1">А это три ячейки третьего столбца объединились в одну большую</td>
+            </tr>
+            <tr>
+                <td colspan="2">Единственная ячейка второй строки, объединяющая оба столбца</td>
+
+            </tr>
+            <tr>
+                <td>Это первая ячейка третьей строки</td>
+                <td>Это вторая ячейка третьей строки</td>
+            </tr>
+            <tr>
+                <td colspan="3">Понравилось делать таблицы?</td>
+            </tr>
+        </table>
+</body>
+</html>

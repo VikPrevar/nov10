@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+div[class^='box'] {
+    width: 100px;
+    height: 100px;
+}
+.box1 {
+   /* background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+    background: linear-gradient(45deg, #caa68e, #8296a0);*/
+    background: repeating-linear-gradient(180deg, green, green 10px, white 10px, white 20px); 
+}
+.box2 {
+    background: repeating-linear-gradient(135deg, black, black 30px, rgb(192, 189, 189) 30px, rgb(177, 174, 174) 80%);
+}
+.box3 {
+    background: repeating-radial-gradient(circle, red,red 15px, black 10px,black 80px);
+}
